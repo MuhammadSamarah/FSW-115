@@ -1,0 +1,96 @@
+{
+    "menu": [
+        {
+            "appetizers":[
+                {
+                    "name": "nuggets",
+                    "ingredients": ["chicken","flower"],
+                    "description": ["B+"]
+                },
+                {
+                    "name": "poppers",
+                    "ingredients": ["cheese","jalapeno","powder"],
+                    "description": ["A+"]
+                },
+                {
+                    "name": "french fries",
+                    "ingredients": ["potato","cheese","peanut oil"],
+                    "description": ["B+"]
+                }
+            ],
+
+            "cold sandwiches":[
+                {
+                    "name": "chicken buffalo",
+                    "ingredients": ["chicken","sauce"],
+                    "description": ["C+"]
+                },
+                {
+                    "name": "chicken with eggs",
+                    "ingredients": ["cheese","jalapeno","powder"],
+                    "description": ["A+"]
+                },
+                {
+                    "name": "turkey and ranch",
+                    "ingredients": ["potato","cheese","peanut oil"],
+                    "description": ["B+"]
+                }
+            ],
+
+            "hot sandwiches":[
+                {
+                    "name": "bacon and tomato",
+                    "ingredients": ["bacon","lettuce", "tomato"],
+                    "description": ["A+"]
+                },
+                {
+                    "name": "rice and bean",
+                    "ingredients": ["white rice","black beans"],
+                    "description": ["A+"]
+                },
+                {
+                    "name": "egg and cheese",
+                    "ingredients": ["egg","cheese"],
+                    "description": ["A+"]
+                }
+            ],
+
+            "desserts":[
+                {
+                    "name": "ice cream",
+                    "ingredients": ["milk","added flavoring"],
+                    "description": ["C+"]
+                },
+                {
+                    "name": "cake",
+                    "ingredients": ["banking powder","sugar","flavor"],
+                    "description": ["B+"]
+                },
+                {
+                    "name": "pancakes",
+                    "ingredients": ["banking powder","sugar"],
+                    "description": ["B+"]
+                }
+            ],
+
+            "drinks":[
+                {
+                    "name": "water",
+                    "ingredients": ["water"],
+                    "description": ["A++"]
+                },
+                {
+                    "name": "lemonade",
+                    "ingredients": ["lemon","sugar"],
+                    "description": ["A+"]
+                },
+                {
+                    "name": "orange juice",
+                    "ingredients": ["orange", "sugar"],
+                    "description": ["B+"]
+                }
+            ] 
+        }
+    ]
+}
+
