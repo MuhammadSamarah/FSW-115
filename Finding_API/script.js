@@ -1,5 +1,5 @@
 
-var people = [
+const data = [
     {
         "MemberId": 1770,
         "createdAt": "2016-10-02 23:30",
@@ -42,9 +42,10 @@ var people = [
     }
 ]
 
-for(let i = 0; i < people.length; i++) {
-    //people[i].MemberId;
-    console.log(people[i].MemberId);
+for (i = 1; i < data.length; i++) {
+    var x = document.createElement("h1");
+    var y = document.createTextNode(data[i].MemberId);
+    x.appendChild(y);
+    document.getElementById("info").appendChild(x);
 }
-
 
