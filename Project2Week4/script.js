@@ -1,10 +1,12 @@
 const Button1 = document.getElementById("button");
-Button1.addEventListener("click", function(){
-axios.get('https://www.breakingbadapi.com/api/quotes')
+Button1.textContent = "API list1";
+Button1.addEventListener("click", () => {
+axios.get('https://swapi.dev/api/people')
 .then(response => { 
-    for(let i = 0; i < response.data.length; i++){
+    console.log(response.data)
+    for(let i = 0; i < response.data.results.length; i++){
         const li1 = document.createElement("li");
-        li1.textContent = response.data[i].quotes
+        li1.textContent = response.data.results[i].name
         document.body.appendChild(li1);
     }
     })
