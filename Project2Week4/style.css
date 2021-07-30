@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    border: 0;
+    background-color: wheat;
+}
+
+body {
+    display: grid;
+    grid-gap: 30px;
+    background-color: rosybrown;
+    padding: 20px;
+    margin: 15px;
+    grid-template-areas: 
+    "PageLink PageLink button button";
+    
+  }
+  
+
+#button:hover {
+    
+    background-color: gray;
+}
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    body {
+        display: grid;
+        grid-gap: 30px;
+        background-color: palegreen;
+        padding: 20px;
+        margin: 15px;
+        grid-template-areas: 
+        "PageLink PageLink button button";
+        
+      }
+      
+    
+    #button:hover {
+        
+        background-color: gray;
+    }
+    
+    
+ 
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        display: grid;
+        grid-gap: 30px;
+        background-color: #21f3e9;
+        padding: 20px;
+        margin: 15px;
+        grid-template-areas: 
+        "PageLink PageLink button button";
+        
+      }
+      
+    
+    #button:hover {
+        
+        background-color: gray;
+    }
+    
+    
+
+}

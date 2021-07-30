@@ -1,7 +1,7 @@
-const Button1 = document.getElementById("button");
-Button1.textContent = "People API Click Here";
-Button1.addEventListener("click", () => {
-axios.get('https://swapi.dev/api/people')
+const Button2 = document.getElementById("button2");
+Button2.textContent = "Planet API Click Here";
+Button2.addEventListener("click", () => {
+axios.get('https://swapi.dev/api/planets')
 .then(response => { 
     console.log(response.data)
     for(let i = 0; i < response.data.results.length; i++){
@@ -12,5 +12,3 @@ axios.get('https://swapi.dev/api/people')
     })
 .catch(error => console.log(error))
 });
-
-
