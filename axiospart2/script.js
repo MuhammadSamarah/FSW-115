@@ -63,7 +63,7 @@ const deleteItem = (z)=> {
 };
 
 const updateItem = (x)=> {
-    const id = x.target.id;
+    const listId = x.target.id;
     let completed = x.target.value;
     let completeData = null;
 
@@ -76,7 +76,7 @@ const updateItem = (x)=> {
     let updateData = {
         isComplete : completeData
     };
-    axios.put(`http://api.bryanuniversity.edu/muhammad1/list/${id}`,updateData)
+    axios.put(`http://api.bryanuniversity.edu/muhammad1/list/${listId}`,updateData)
     .then(()=> {
         location.reload()
     })
