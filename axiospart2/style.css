@@ -1,16 +1,31 @@
-#todoContainer {
+* {
+    background-color: rgb(252, 232, 208);
+}
+#Container {
     display: flex;
 }
 
-.todo-card {
+body {
+    text-align: center;
+    border: 3px solid black;
+}
+
+form {
+   margin-top: 5px;
+}
+
+.todoDisplay{ 
     border: 1px solid black;
-    border-radius: 25px;
-    height: 300px;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 200px;
     width: 300px;
     display: flex;
-    flex-direction: column;
     align-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 25px;
+    margin: 30px;
+}
+
+.todoDisplay :hover {
+    background-color: aquamarine;
 }
