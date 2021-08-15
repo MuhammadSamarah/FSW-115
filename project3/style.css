@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+    background-color: bisque;
+    border-radius: 10px solid black;
+}
+
+body:hover{
+    background-color: aquamarine;
+}
+
+
